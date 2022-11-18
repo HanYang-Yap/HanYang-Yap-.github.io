@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Exercise 1</title>
+
+</head>
+</body>
+
+<h1>New HTML5 Input Types Demo</h1>
+
+    <p>The form demonstrates the new HTML5 input types and the placeholder, required and autofocus attributes. </p>
+
+    <form action = "/action_page.php">
+
+        <label>Color:
+            <input type ="color" autofocus /> (Hexadecimal code such as #ADD8E6)
+        </label>
+
+        <p>
+            <label for="date"> Date:</label>
+            <input type = "date" id = "date" name = "date"> (yyyy-mm-dd)
+        </p>
+
+        <p>Email: 
+            <input type = "email" name = "email" placeholder = "name@domain.com" required >
+        </p>
+
+        <p>
+            <label for = "quantity"> Number: </label>
+            <input type = "number" id = "quantity" name = "quantity" min="0" max = "7" value = "4">
+        </p>
+
+        <p>
+            <label for = "range"> Range: </label>
+            <input type = "range" id = "range" name = "range" min = "0" max = "50">
+        </p>
+
+        <p>
+            <label for = "search">Search: </label>
+            <input type = "search" id = "search1" name = "search1" placeholder = "search query">
+        </p>
+
+        <p>
+            <label for="appt">Time: </label>
+            <input type = "time" id = "appt" name = "appt"> (hh:mm)
+            <br><br><input type = "submit" value = "Submit" >
+            <input type = "reset" value = "Clear" >
+        </p>
+    </form>
+
+</body>
+
+</html>
