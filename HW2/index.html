@@ -6,17 +6,35 @@
     <title>HW2</title>
 <style>
 
-    #myHeader {
-        background-color: cadetblue;
-        padding: 40px;
-        text-align: left;
+    body {
+        background-color:rgb(254, 255, 212);
+    }
+    
+    #myHeader1 {
+        background-color:bisque;
+        padding: 20px;
+        text-align: center;
         font-family: 'Times New Roman', Times, serif;
     }
 
-    .song {
-        background-color: deeppink;
-        color:khaki;
-        padding: 10px;
+    .myHeader2 {
+        background-color:thistle;
+        color:black;
+        padding: 5px;
+        text-align: center;
+        font-family: 'Times New Roman', Times, serif;
+        font-weight: lighter;
+    }
+
+    .myInfo {
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: large;
+        font-style: italic;
+    }
+
+    span {
+        color:magenta;
+        border: 1px solid black; 
     }
 
 </style>
@@ -24,4 +42,103 @@
 
 <h2> About me! </h2>
 
-<h1 id = "myHeader"> My Personal Information </h1>
+<h1 id = "myHeader1"> My Personal Information </h1>
+
+<h2 class = "myHeader2"> What's my name? </h2>
+<p class="myInfo"> 
+    First name: Han Yang
+    <br>Last name: Yap
+    <br> English name: Ezekiel
+</p>
+
+<h2 class = "myHeader2"> How old are me? </h2>
+<p class="myInfo">
+    Date of Birth: 
+    <form action="/action_page.php">
+        <label for="birthday"></label>
+        <input type="date" id="birthday" name="birthday">
+        <input type="submit" value="Submit">
+      </form>
+      
+    <br>Age: 19
+</p>
+
+<h2 class = "myHeader2"> Where am I come from ? </h2>
+<p class ="myInfo">
+    Country: <select name="Country">
+        <option value = "Malaysia"> Malaysia </option>
+        <option value = "Taiwan"> Taiwan </option>
+        <option value = "Singapore"> Singapore </option>
+        </select>
+    <br>City: Kuala Lumpur
+    <br>High School: Chong Hwa Independent High School Kuala Lumpur
+    <br>University: National Chengchi University
+    <br>Major: Management Information System
+</p>
+
+<h2 class = "myHeader2"> My Photo taken in Taiwan </h2>
+<p class ="myInfo">
+     These are some photo which taken in Taiwan.
+     <table border="1" style = "width:100%">
+        
+        <tr>
+            <th><img src="Cool.jpg" width="150" height="200" alt = "Cool"/></th>
+            <th><img src="WaterFall.jpg" width="300" height="200" alt = "WaterFall"/></th>
+            <th><img src="Lantern.jpg" width="120" height="200" alt = "Lantern"/></th>
+        </tr>
+
+        <tr>
+            <th>Personal picture</th>
+            <th>Water Fall in ShihFen</th>
+            <th>Lantern in ShihFen Old Street</th>
+        </tr>
+
+        <tr>
+        <td colspan = "3">
+            These three photo were taken when I was travelling with my friends !
+        </td>
+        </tr>
+    </table>
+
+</p>
+
+<h2 class = "myHeader2"> Fun fact about me!</h2>
+<p class ="myInfo">
+    My favourite artist is <span>TWICE</span>, a girl group from South Korea.
+    <br>My top 5 favourite song by TWICE:
+    <ol>
+        <li>Talk That Talk</li>
+        <li>Celebrate</li>
+        <li>I Can't Stop Me</li>
+        <li>Knock Knock</li>
+        <li>Likey</li>
+    </ol>
+    </p>
+
+    <p class ="myInfo">
+    I like to watch Netflix series.
+    <br> Netflix series that I would like to recommend: 
+    <ul>
+        <li>Manifest</li>
+        <li>Emily in Paris</li>
+        <li>Behind Her Eyes</li>
+        <li>Stranger Things</li>
+        <li>Lupin</li>
+        <li>Ozark</li>
+        <li>Mind Hunter</li>
+    </ul>
+</p>
+
+    <p>
+            Do you have something to say? Leave down your comment down below:
+            <label>
+                <br><textarea rows = "4" cols = "50" placeholder="Say Something here."></textarea>
+            </label>
+            <div align = "left"><input type = "submit" value = "Submit">
+            <input type = "reset" value = "Clear">
+    </p>
+
+    <a href="Page2.html"> Page 2 </a>
+    <br><a href="Page3.html"> Page 3 </a>
+
+</html>
