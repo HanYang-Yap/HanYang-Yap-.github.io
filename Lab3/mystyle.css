@@ -89,5 +89,10 @@ a {text-decoration: none;}
     }
 }
 
-
+@media print {
+    body {background-color: white;}
+    p {font-size: 14pt;
+    color: black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;}
+}
 
