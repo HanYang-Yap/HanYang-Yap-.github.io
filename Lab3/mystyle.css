@@ -1,0 +1,63 @@
+body { background-color:lemonchiffon;
+    background-image: url('twice.png');
+    background-size: 300px 100px;
+    background-position: bottom right;
+    background-repeat: no-repeat;
+    background-attachment: fixed;   
+}
+
+.floated { background-color: silver;
+    font-size: 1.5em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: .2em;
+    margin-left: .5em;
+    margin-bottom: .5em;
+    float: left;
+    text-align: right;
+    width: 50%;
+}
+
+p {
+    font-size: 18pt;
+    color:darkblue;
+
+    padding-top: 5px;
+    padding-right: 3px;
+    padding-bottom: 5px;
+    padding-left: 8px;
+
+}
+
+p { padding: 5px 3px 5px 8px;}
+p.dashed {border-style: dashed; }
+
+div { border: 1px solid black;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-right: 150px;
+    margin-left: 80px;
+    background-color: papayawhip;
+}
+
+a.nodec { text-decoration: none;}
+a:hover {color: brown;}
+li {color: firebrick;}
+h1 {background-color: pink;}
+h1, em {color:darkgreen;} 
+ul {margin-left: 20px;}
+ul ul {font-size: .8em;}
+
+span { color:brown; font-size: .6em; height: 1em;}
+.super {position: relative; top:-1ex;}
+.sub {position: relative; bottom: -1ex}
+
+.background_image {position: absolute; 
+        top: 0px; left: 0px; z-index: 1;}
+
+.foreground_image {position: absolute;
+    top: 25px; left: 100px; z-index: 2;}
+
+.text {position:absolute; top: 25px; left: 100px;
+z-index: 3; font-size: 20pt; font-family: 'Times New Roman', Times, serif;}
+
+
