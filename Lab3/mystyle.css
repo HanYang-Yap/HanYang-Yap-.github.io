@@ -76,10 +76,18 @@ nav:hover ul {display: block;}
 nav ul li {border-top: 2px solid goldenrod;
 background-color: lightgoldenrodyellow;
 width: 10em;
+text-align: left;
+position: relative;
 color: black;}
 
 nav ul li:hover { background-color:lightgoldenrodyellow;}
 a {text-decoration: none;}
+
+@media screen and (min-width:480px) {
+    body {
+        background-color: salmon;
+    }
+}
 
 
 
