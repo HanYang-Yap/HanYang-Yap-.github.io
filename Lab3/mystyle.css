@@ -60,4 +60,26 @@ span { color:brown; font-size: .6em; height: 1em;}
 .text {position:absolute; top: 25px; left: 100px;
 z-index: 3; font-size: 20pt; font-family: 'Times New Roman', Times, serif;}
 
+nav { font-weight: bold;
+    color:white;
+    border: 2px solid goldenrod;
+    text-align: center;
+width: 10em;
+background-color: goldenrod;}
+
+nav ul { display: none;
+list-style: none;
+margin: 0;
+padding: 0;}
+
+nav:hover ul {display: block;}
+nav ul li {border-top: 2px solid goldenrod;
+background-color: lightgoldenrodyellow;
+width: 10em;
+color: black;}
+
+nav ul li:hover { background-color:lightgoldenrodyellow;}
+a {text-decoration: none;}
+
+
 
