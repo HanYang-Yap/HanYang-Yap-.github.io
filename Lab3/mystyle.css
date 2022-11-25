@@ -1,4 +1,4 @@
-body { background-color:lemonchiffon;
+body { background-color:lightcoral;
     background-image: url('twice.png');
     background-size: 300px 100px;
     background-position: bottom right;
@@ -83,9 +83,9 @@ color: black;}
 nav ul li:hover { background-color:lightgoldenrodyellow;}
 a {text-decoration: none;}
 
-@media screen and (min-width:450px) {
+@media screen and (min-width:200px) {
     body {
-        background-color: salmon;
+        background-color: lemonchiffon;
     }
 }
 
