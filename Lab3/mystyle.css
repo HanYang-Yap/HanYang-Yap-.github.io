@@ -1,4 +1,4 @@
-body { background-color:lemonchiffon;
+body { background-color:rgb(105, 255, 118);
     background-image: url('twice.png');
     background-size: 300px 100px;
     background-position: bottom right;
@@ -85,7 +85,7 @@ a {text-decoration: none;}
 
 @media screen and (min-width:200px) {
     body {
-        background-color: rgb(225, 250, 114);
+        background-color: lemonchiffon;
     }
 }
 
