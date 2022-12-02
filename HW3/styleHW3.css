@@ -46,6 +46,16 @@
    font-size: 15px;
 }
 
+.label1 {
+  width: auto;
+  color: rgb(0, 0, 0);
+  margin-right: 30px;
+  margin-left: 10px;
+  /* padding-left: 50px; */
+  padding-right: auto;
+  font-size: 15px;
+}
+
 .inputfield label1{
   width: auto;
   color: rgb(0, 0, 0);
