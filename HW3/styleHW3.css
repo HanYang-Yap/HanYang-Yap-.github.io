@@ -1,56 +1,3 @@
-/* body { background-color:rgb(255, 156, 70);}
-
-p { font-size: 12pt;
-    color:darkblue;
-    font-family: 'Times New Roman', Times, serif;
-    padding-left: 5px;
-    padding-right: 5px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    }
-    
-
-p {padding: 5px 5px 5px 5px;}
-
-div#input1 {border-style: hidden;}
-
-div#input2 {float: left;
-    width: 500px;
-    height: 50px;}
-
-div#input3 {float: right;
-    width: 500px;
-    height: 50px;}
-
-div#input4 {}
-
-.floated1 {border: 15% solid grey;
-    margin-top: 1%;
-    margin-bottom: 1%;
-    margin-right: auto;
-    margin-left: auto; 
-    position: relative;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-}
-
-@media screen and (min-width:480px) {
-    body {
-        background-color: lemonchiffon;
-    }
-}
-
-@media print {
-    body {background-color: rgb(143, 255, 130);}
-    p {font-size: 14pt;
-    color: black;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;}
-    .floated1 {background-color: rgb(80, 80, 80);}
-} */
-
-
-
 *{
   margin: 0;
   padding: 0;
@@ -83,33 +30,31 @@ div#input4 {}
   width: 70%;
 }
 
-
 .inputfield{
   margin-bottom: 15px;
   padding-right: 50px;
   display: flex;
-  /* align-items: left; */
 }
 
 .inputfield label{
    width: auto;
    color: rgb(0, 0, 0);
-   margin-right: 10px;
+   margin-right: 38px;
    margin-left: 10px;
    /* padding-left: 50px; */
    padding-right: auto;
    font-size: 15px;
 }
 
-
-/* .inputfield .float_left {
-  float: left;
+.inputfield label1{
+  width: auto;
+  color: rgb(0, 0, 0);
+  margin-right: 30px;
+  margin-left: 10px;
+  /* padding-left: 50px; */
+  padding-right: auto;
+  font-size: 15px;
 }
-
-
-.inputfield .float_right {
-  float: right;
-} */
 
 .inputfield .input {
   width: 100%;
@@ -134,14 +79,6 @@ div#input4 {}
   border-radius: 3px;
 }
 
-/* .wrapper .form .inputfield .input,
-.wrapper .form .inputfield .img{
-  width: 100%;
-  padding: 8px 10px;
-  border-radius: 3px;
-  transition: all 0.3s ease;
-} */
-
 .inputfield .textarea{
   width: 100%;
   height: 125px;
@@ -152,26 +89,6 @@ div#input4 {}
   position:absolute;
   margin: 10px -30% 10px 0%;
 }
-
-/* #input {
-  position:relative;
-  right: -540px;
-  top:-63px;
-}
-
-#info2 {
-  position: relative;
-  margin:10px 2% -20px 2%;
-  width:38.5%;
-  line-height: 280%;
-}
-
-#info3 {
-  position: relative;
-  margin: 30px 2% 10px 2%;
-  line-height: 280%;
-
-} */
 
 img{
   width:80%;
