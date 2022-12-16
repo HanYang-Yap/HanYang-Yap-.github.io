@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+    <!-- <input type="button" value="1st button" onClick="alert('wahaha!');">
+    <input type="button" value="2st button" onClick="alert('muahaha!');">
+
+    <input type="button" value="blue" onClick="document.body.style.backgroundColor='blue';">
+    <input type="button" value="green" onClick="document.body.style.backgroundColor='green';">
+
+    <input type="button" value="Change background color" onClick="alert('change to BLUE background color'); document.body.style.backgroundColor='blue';"> -->
+
+    <input type="button" value="firstInput" onClick="alert(firstInput)">
+    <input type="button" value="secondInput" onClick="alert(secondInput)">
+    <br>
+
+    <script>
+        // var name;
+        // name = window.prompt("Please enter your name");
+        
+        // alert("Hello " +name+ ", " +' Current date: ' + Date());
+
+        // document.writeln("Hello " + name + ", " + 'Current date: ' + Date());
+
+        // var firstInteger;
+        // var secondInteger;
+        // var sum;
+
+        // firstInteger = parseInt(window.prompt("Enter first integer"));
+        // secondInteger = parseInt(window.prompt("Enter second integer"));
+        // sum = firstInteger + secondInteger;
+        // document.write(sum);
+
+        var firstInput, secondInput;
+        firstInput = parseInt(window.prompt("Enter first input"));
+        secondInput = parseInt(window.prompt("Enter second input"));
+        if (firstInput > secondInput) {
+            document.body.style.backgroundColor='lightblue';
+            document.writeln(firstInput + ">" + secondInput);
+        } else if (secondInput > firstInput) {
+            document.body.style.backgroundColor='lightgreen';
+            document.writeln(secondInput + ">" + firstInput);
+        } else {
+            document.body.style.backgroundColor='lightyellow';
+            document.writeln(secondInput + "==" + firstInput);
+        }
+
+
+
+    </script>
+
+
+</body>
+</html>
