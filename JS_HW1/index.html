@@ -2,8 +2,18 @@
 <html>
 <body>
 
-    <p>Hello World</p>
+    <script>
+    var rand = Math.floor((Math.random()*10)+1);
+    var userInput = parseInt(window.prompt("Randomly select a value from 1 to 10."));
 
+    while (userInput !==rand) {
 
+        alert("Randomly select a value from 1 to 10.");
+        userInput = parseInt(window.prompt("Randomly select a value from 1 to 10."));
+    }
+
+    alert("Corrrect!");
+
+    </script>
 </body>
 </html>
